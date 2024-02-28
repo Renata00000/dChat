@@ -6,7 +6,7 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class SendSms{
+public class SmsCampanha {
 
     public static void main(String[] args) {
         try {
@@ -18,7 +18,7 @@ public class SendSms{
 
             // Corpo da solicitação JSON
             //lin opcional, caso queira mudar de false para true e add o link na url
-            String requestBody = "{\"name\": \"Minha Campanha1\", \"message\": \"agora foi!\", \"use_link\": true, \"url\": \"https://github.com/Renata00000\", \"tokens\": [{ \"phone\": \"5515997530209\", \"reference\": 1 }, { \"phone\": \"5515997318966\", \"reference\": 2 }, { \"phone\": \"55599601181\", \"reference\": 3 }]}";
+            String requestBody = "{\"name\": \"CAMPANHA\", \"message\": \"verificar link\", \"use_link\": false, \"url\": \"https://github.com/Renata00000\", \"tokens\": [{ \"phone\": \"5515997530209\", \"reference\": 1 }, { \"phone\": \"5515997318966\", \"reference\": 2 }, { \"phone\": \"55599601181\", \"reference\": 3 }]}";
 
 
 
